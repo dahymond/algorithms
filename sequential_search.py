@@ -21,7 +21,7 @@ Input array must be ordered
     found = False
     stopped = False
 
-    while pos < len(arr) and not found:
+    while pos < len(arr) and not found and not stopped:
 
         if arr[pos]  == ele:
             found  = True
