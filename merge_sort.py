@@ -8,9 +8,14 @@ def merge_sort(arr):
 
         merge_sort(lefthalf)
         merge_sort(righthalf)
-
+        
+        #index of the lefthalf 
         i = 0
+        
+        #index of the righthalf
         j = 0
+
+        #index of the whole array
         k = 0
 
         while i < len(lefthalf) and j < len(righthalf):
