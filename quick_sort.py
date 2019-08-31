@@ -35,6 +35,8 @@ def partition(arr, first, last):
     arr[first] = arr[rightmark]
     arr[rightmark] = temp
 
+
+
     arr = [1,4,9,6,4,6,8,3,2]
     quick_sort(arr)
     print arr
