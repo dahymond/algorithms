@@ -68,3 +68,5 @@ def profit2(stock_prices):
         
         
     return max_profit
+
+print profit2([23,12,3,10,25])
