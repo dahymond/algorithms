@@ -1,3 +1,11 @@
+
+# Problem
+# Given a list of integers, write a function that will return a list, in which for each index the element will be the product of all the integers except for the element at that index
+
+# For example, an input of [1,2,3,4] would return [24,12,8,6] by performing [2×3×4,1×3×4,1×2×4,1×2×3]
+
+
+
 def index_prod(lst):
     
     # Create an empty output list
@@ -36,3 +44,6 @@ def index_prod(lst):
     return output
 
 print index_prod([1,2,3,4])
+
+# Review the solution and make sure you understand it! It uses O(n) time and O(n) space complexity!
+
